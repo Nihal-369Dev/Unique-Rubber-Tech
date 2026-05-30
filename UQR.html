@@ -1,0 +1,869 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Unique Rubber Tech | High-End Industrial Conveyor Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .industrial-grid {
+            background-image: radial-gradient(#3d3d3d 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        .timeline-line {
+            background: repeating-linear-gradient(90deg, #c8102e, #c8102e 10px, transparent 10px, transparent 20px);
+        }
+        .stat-card {
+            border-left: 4px solid #c8102e;
+            background: linear-gradient(to right, rgba(200, 16, 46, 0.05), transparent);
+        }
+        .mobile-menu {
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(-12px);
+            transition: opacity 0.22s ease, transform 0.22s ease;
+        }
+        .mobile-menu.is-open {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+        body.menu-open {
+            overflow: hidden;
+        }
+        @media (max-width: 767px) {
+            :root {
+                scroll-padding-top: 76px;
+            }
+            .section-pad {
+                padding-top: 72px !important;
+                padding-bottom: 72px !important;
+            }
+            .section-pad h2 {
+                letter-spacing: 0.18em !important;
+                line-height: 1.4;
+            }
+            .section-pad h3 {
+                font-size: clamp(2rem, 9vw, 2.85rem) !important;
+                line-height: 1.08 !important;
+                overflow-wrap: anywhere;
+            }
+            .section-pad .p-12,
+            .section-pad .p-10,
+            .section-pad .p-8 {
+                padding: 24px !important;
+            }
+            .section-pad .mb-24,
+            .section-pad .mb-20,
+            .section-pad .mb-16 {
+                margin-bottom: 48px !important;
+            }
+            .section-pad .gap-24,
+            .section-pad .gap-20,
+            .section-pad .gap-16 {
+                gap: 48px !important;
+            }
+            .section-pad .text-4xl {
+                font-size: clamp(1.9rem, 8vw, 2.5rem) !important;
+                line-height: 1.12 !important;
+            }
+            .mobile-tight-copy {
+                overflow-wrap: anywhere;
+            }
+            .mobile-compact-card {
+                padding: 24px;
+            }
+            .mobile-float-actions {
+                right: 16px;
+                bottom: 16px;
+                gap: 10px;
+            }
+            .mobile-float-actions a {
+                width: 52px;
+                height: 52px;
+                padding: 12px;
+            }
+            .mobile-float-actions img {
+                width: 26px;
+                height: 26px;
+            }
+            .mobile-gallery {
+                grid-auto-rows: 230px !important;
+            }
+            .mobile-hotline {
+                font-size: clamp(1.55rem, 8vw, 2.25rem) !important;
+                overflow-wrap: anywhere;
+            }
+            .mobile-tag-list {
+                flex-wrap: wrap;
+            }
+            .mobile-contact-row {
+                gap: 18px !important;
+            }
+            .mobile-contact-icon {
+                width: 52px !important;
+                height: 52px !important;
+                flex: 0 0 52px;
+            }
+            #quote-form button[type="submit"] {
+                letter-spacing: 0.18em !important;
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+            footer .tracking-widest {
+                letter-spacing: 0.12em !important;
+            }
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary": "#C8102E",
+                      "surface": "#FFFFFF",
+                      "on-surface": "#111111",
+                      "surface-variant": "#3D3D3D",
+                      "background": "#111111",
+                      "on-background": "#FFFFFF",
+                      "outline": "#3D3D3D"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0px",
+                      "lg": "0px",
+                      "xl": "0px",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "display": ["Hanken Grotesk", "sans-serif"],
+                      "body": ["Inter", "sans-serif"]
+              },
+              "spacing": {
+                      "margin-mobile": "20px",
+                      "margin-desktop": "80px",
+                      "section-padding": "120px"
+              }
+            },
+          },
+        }
+      </script>
+</head>
+<body class="bg-surface text-on-surface font-body overflow-x-hidden selection:bg-primary selection:text-white">
+<!-- Floating Actions -->
+<div class="fixed bottom-8 right-8 z-[100] flex flex-col gap-4 mobile-float-actions">
+<a class="bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center" href="https://wa.me/919974548464">
+<img alt="WhatsApp" class="w-8 h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTbnJ06NYcWaicbKCP8mJV-S5WCcdECn12hCLKYlkJB468vw99AlzSsphaTWpJYIbqVXN0m92fM6v_wCEF94bH0bsNX-AWD7eLe9-fjy1sUt2y__8ENJi8rqaRGtYmETgdTlsvG31alntHwNjicGGdSslqd9ky0tyzPVhOWaclTpS-Vlnj6tEC7jaVb8DOmOLr4U9EeZjvwLK7DvCSyEN25m-nAKyf82D9zlESmyAMuhK9ycaaRnZOt8Dhs1nypfalqHm8vs5ezL0-">
+</a>
+<a class="bg-primary text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center" href="tel:+919974548464">
+<span class="material-symbols-outlined text-3xl">call</span>
+</a>
+</div>
+<!-- Header -->
+<header class="fixed top-0 w-full z-50 bg-on-surface/95 backdrop-blur-md border-b border-surface-variant/30">
+<nav class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-20 md:h-24">
+<a class="flex items-center" href="#">
+<img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAECWbOnKs3q47duQJFDMTiwqNuPbaHK4wOolikKNfYyi_N0_gcHZEpKyLRekqnkVJNxw3HuLqkTc8SQQSq8R0BamIZYmfuPMblpkzs4LuHFoAcNFuPK2_OMWtyDy1ofgXz_FSlcQdS906bIn82KDvVKCpa5S9xHyXxMpIkVoCSc7CnWac0_lMHzlkmreuEtxZfx16uCqjiL7ZXXQBrt4DP6PaPPEj8MixKTvUl45b38PoQvOGuCy31n21HEkVYuARsa-Lw7NieOiHF" alt="Unique Rubber Tech Logo" class="h-10 md:h-12 w-auto object-contain">
+</a>
+<div class="hidden md:flex gap-10 items-center">
+<a class="text-white font-semibold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="#products">Products</a>
+<a class="text-white font-semibold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="#services">Services</a>
+<a class="text-white font-semibold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="#industries">Industries</a>
+<a class="text-white font-semibold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="#about">About</a>
+<a class="bg-primary text-white px-8 py-4 font-bold text-sm uppercase tracking-[0.2em] hover:bg-white hover:text-primary transition-all" href="#contact">Request Quote</a>
+</div>
+<button class="md:hidden text-white w-12 h-12 flex items-center justify-center border border-white/10" id="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
+<span class="material-symbols-outlined text-4xl" id="mobile-menu-icon">menu</span>
+</button>
+</nav>
+<div class="mobile-menu md:hidden absolute left-0 right-0 top-20 bg-on-surface border-t border-white/10 shadow-2xl" id="mobile-menu">
+<div class="px-margin-mobile py-6 flex flex-col gap-2">
+<a class="mobile-menu-link text-white font-bold uppercase tracking-widest py-4 border-b border-white/10" href="#products">Products</a>
+<a class="mobile-menu-link text-white font-bold uppercase tracking-widest py-4 border-b border-white/10" href="#services">Services</a>
+<a class="mobile-menu-link text-white font-bold uppercase tracking-widest py-4 border-b border-white/10" href="#industries">Industries</a>
+<a class="mobile-menu-link text-white font-bold uppercase tracking-widest py-4 border-b border-white/10" href="#about">About</a>
+<a class="mobile-menu-link bg-primary text-white px-6 py-4 mt-4 font-bold text-center uppercase tracking-[0.18em]" href="#contact">Request Quote</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative min-h-[92vh] md:min-h-screen flex items-center pt-24 overflow-hidden bg-black">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent z-10"></div>
+<!-- Video Placeholder: Background Image with Overlay -->
+<img alt="Industrial manufacturing background" class="w-full h-full object-cover opacity-60" src="assets/hero-bg.jpeg">
+</div>
+<div class="relative z-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop w-full">
+<div class="max-w-4xl">
+<div class="inline-flex items-center gap-3 border-l-4 border-primary pl-4 mb-8">
+<span class="text-white uppercase tracking-[0.4em] font-bold text-xs">Precision Engineering Solutions</span>
+</div>
+<h1 class="text-white font-display text-[2.35rem] sm:text-5xl md:text-7xl font-extrabold leading-[1.08] mb-8 uppercase mobile-tight-copy">
+                CONVEYOR BELT &amp; MATERIAL HANDLING SOLUTIONS BUILT FOR <span class="text-primary italic">MAXIMUM UPTIME</span>
+</h1>
+<p class="text-gray-300 text-lg md:text-xl max-w-2xl mb-12 leading-relaxed">
+                Supplying Conveyor Belts, Rollers, Pulleys, Conveyor Systems, Installation, Maintenance &amp; Engineering Solutions Across Gujarat and India.
+            </p>
+<div class="flex flex-col sm:flex-row gap-6 mb-20">
+<a class="bg-primary text-white px-8 md:px-12 py-5 md:py-6 font-bold text-center hover:bg-white hover:text-on-surface transition-all uppercase tracking-[0.16em] md:tracking-[0.2em] text-sm" href="#contact">Request A Quote</a>
+<a class="border border-white/30 text-white px-8 md:px-12 py-5 md:py-6 font-bold text-center hover:bg-white/10 transition-all uppercase tracking-[0.16em] md:tracking-[0.2em] text-sm backdrop-blur-sm" href="#products">Explore Products</a>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-8 py-10 border-t border-white/10">
+<div class="space-y-1">
+<div class="text-primary text-3xl font-black">500+</div>
+<div class="text-white/60 text-[10px] uppercase tracking-widest font-bold">Projects Delivered</div>
+</div>
+<div class="space-y-1">
+<div class="text-primary text-3xl font-black">50+</div>
+<div class="text-white/60 text-[10px] uppercase tracking-widest font-bold">Industrial Clients</div>
+</div>
+<div class="space-y-1">
+<div class="text-primary text-3xl font-black">15+</div>
+<div class="text-white/60 text-[10px] uppercase tracking-widest font-bold">Years Experience</div>
+</div>
+<div class="space-y-1">
+<div class="text-primary text-3xl font-black">24/7</div>
+<div class="text-white/60 text-[10px] uppercase tracking-widest font-bold">Expert Support</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="section-pad py-section-padding bg-on-surface text-white">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-20">
+<h2 class="text-primary font-bold uppercase tracking-[0.3em] mb-4">Core Competencies</h2>
+<h3 class="text-4xl md:text-5xl font-display font-bold uppercase">Why Lead with Unique Rubber Tech?</h3>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">verified</span>
+<h4 class="text-xl font-bold mb-4 uppercase">Uncompromising Quality</h4>
+<p class="text-gray-400 text-sm">Industrial-grade rubber and steel components designed for extreme environments.</p>
+</div>
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">settings_input_component</span>
+<h4 class="text-xl font-bold mb-4 uppercase">Custom Solutions</h4>
+<p class="text-gray-400 text-sm">Tailor-made engineering to fit your specific material handling flow.</p>
+</div>
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">bolt</span>
+<h4 class="text-xl font-bold mb-4 uppercase">Fast Installation</h4>
+<p class="text-gray-400 text-sm">Rapid deployment teams to ensure minimal production downtime.</p>
+</div>
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">engineering</span>
+<h4 class="text-xl font-bold mb-4 uppercase">On-Site Assistance</h4>
+<p class="text-gray-400 text-sm">Dedicated engineers available at your facility for audit and setup.</p>
+</div>
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">payments</span>
+<h4 class="text-xl font-bold mb-4 uppercase">Competitive Pricing</h4>
+<p class="text-gray-400 text-sm">Direct-from-facility rates without compromising on technical specs.</p>
+</div>
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">support_agent</span>
+<h4 class="text-xl font-bold mb-4 uppercase">After-Sales Care</h4>
+<p class="text-gray-400 text-sm">Ongoing monitoring and maintenance packages for long-term health.</p>
+</div>
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">school</span>
+<h4 class="text-xl font-bold mb-4 uppercase">Domain Expertise</h4>
+<p class="text-gray-400 text-sm">Decades of collective knowledge in heavy industrial engineering.</p>
+</div>
+<div class="p-8 border border-white/5 bg-white/5 hover:border-primary/50 transition-all group">
+<span class="material-symbols-outlined text-primary text-5xl mb-6 group-hover:scale-110 transition-transform">emergency_home</span>
+<h4 class="text-xl font-bold mb-4 uppercase">Breakdown Support</h4>
+<p class="text-gray-400 text-sm">Emergency repair crews ready 24/7 for critical system failures.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="section-pad py-section-padding bg-white" id="about">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="reveal active">
+<h2 class="text-primary font-bold uppercase tracking-[0.4em] mb-6">Our Legacy</h2>
+<h3 class="text-4xl md:text-6xl font-display font-extrabold text-on-surface uppercase mb-10 leading-tight">YOUR TRUSTED CONVEYOR <span class="text-primary">ENGINEERING PARTNER</span></h3>
+<div class="space-y-6 text-gray-700 text-lg leading-relaxed">
+<p class="">At Unique Rubber Tech, we view our clients not just as customers, but as strategic partners in progress. Based in the industrial heart of Mehsana, Gujarat, we have built a reputation for solving the most complex material handling challenges with precision engineering.</p>
+<p class="">Our commitment extends beyond just supplying products. We provide comprehensive engineering support, from initial site audit and blueprint design to final commission and ongoing lifecycle management. Our philosophy is simple: Your uptime is our primary metric of success.</p>
+</div>
+<div class="mt-12 grid grid-cols-2 gap-8">
+<div class="stat-card p-6">
+<span class="block text-3xl font-black text-on-surface mb-1 italic">98%</span>
+<span class="text-xs uppercase font-bold text-gray-500 tracking-wider">Retention Rate</span>
+</div>
+<div class="stat-card p-6">
+<span class="block text-3xl font-black text-on-surface mb-1 italic">ZERO</span>
+<span class="text-xs uppercase font-bold text-gray-500 tracking-wider">Unplanned Downtime</span>
+</div>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -top-10 -right-10 w-full h-full bg-primary/10 -z-10 group-hover:translate-x-4 group-hover:translate-y-4 transition-transform duration-500"></div>
+<img alt="Industrial Facility" class="w-full h-auto shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 border-8 border-white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASP3s6I8gS1GgD63fy3VazXjb2hubO0PsA3H9qRoTIP9Y92CZkeI7dlDd_S3RLJR_m55AAx0bX7W03iy255mICXmqCg24NR6tpcA5yNR-Ey6z_YgMPs_uCbFk9Sa9L7XrYvdwj7iIb13RvZYBzqjdbpNdTpWXM88mT9Hujd3v-k7LzAr0975CsTwfGiVZR4-Om5w0YnHB-i7neoIczFQgLlFXgOOe6jssoOH_M17aFU7OZfkCNT-X1yIMtZjV_E06XUult_cYOUate">
+<div class="absolute -bottom-10 -left-10 w-72 h-72 hidden xl:block">
+<img alt="Engineering Team" class="w-full h-full object-cover border-8 border-white shadow-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtSgTZn3JeG1CmmVH35qQ9VCPqbEgSasCN1hRwPcLQ1RyCMeMrJsIlRv4HOhUXtaZTK0GVejOGisfEysOy43vSDlkjEmzY2FTUr7lm5aycgrtUTNRxdr2vTrdpfq4PRHv2wkgqe3Wbr2z1GjMApKzbOAmCXr0IC_9KwB0IvMBpgrZxz6YhJDrCBjUun7_OGytK2bdnzuhCgX2Yp_fOhMo-kZSZwUlt0sC0UerbjDUNcXS7iiz2bdQsIDmpvM6H0lp-Pqien8EVCE_B">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Products Showcase -->
+<section class="section-pad py-section-padding bg-[#F4F4F4]" id="products">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20">
+<div>
+<h2 class="text-primary font-bold uppercase tracking-[0.4em] mb-4">Inventory &amp; Fabrication</h2>
+<h3 class="text-4xl md:text-5xl font-display font-bold uppercase text-on-surface">24 Product Categories</h3>
+</div>
+<p class="max-w-md text-gray-600 mt-6 md:mt-0">From ultra-abrasion resistant belts to custom modular rollers, we offer the most extensive range in the Indian market.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Belts -->
+<div class="bg-white group overflow-hidden">
+<div class="h-80 overflow-hidden relative">
+<img alt="Conveyor Belts" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiDDEBGpD1LKhuharRen5NqVST-f1sll9jjow86DNuQyNM1VDZ2Wm3vVdZkkfTeD1R7XUMGVkI2vYrSxCaQq-Ie-zR6GdjBm8MeOI7yhgVrrB4cfG4hdhJFy2Lrf797XUoii8lBGd1NBDUAsw1Nq6affAk_bFuj8YUUEr9oZowJcBqoCXvwGIvz-UWAJfv93gZCOjJsAu1aaLTFpy_pdDJdOYfhdLquSvTDm6H-vMml8qAzPS9UKnfFFwDgWk5ISGeJgynGpsoy8vm">
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="p-10">
+<h4 class="text-2xl font-bold uppercase mb-6 flex items-center gap-3">
+<span class="w-2 h-8 bg-primary"></span>
+                        Conveyor Belts
+                    </h4>
+<ul class="space-y-4 text-sm font-semibold text-gray-500 mb-8 uppercase tracking-widest">
+<li class="">• Chevron &amp; Cleated Belts</li>
+<li class="">• Heat Resistant Belts</li>
+<li class="">• Pipe &amp; Elevator Belts</li>
+<li class="">• Steel Cord Belts</li>
+</ul>
+<a class="inline-block border-2 border-on-surface py-3 px-8 text-xs font-bold tracking-widest hover:bg-primary hover:border-primary hover:text-white transition-all uppercase" href="#contact">Get Quote</a>
+</div>
+</div>
+<!-- Rollers/Idlers -->
+<div class="bg-white group overflow-hidden">
+<div class="h-80 overflow-hidden relative">
+<img alt="Rollers and Idlers" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB93s4tWnJvpexi4ITj98tio0hoxLvYPRKPturh1uk2LUNzRiAEbrWsdDaaXMCMZKPLsI_5BS4Wjan5z3RHZbZjRKEW2Z562QvJQW3fSMh4TQQ3C8fJ4Qs0jMuVbF-ZAKbay46DARqGCWaDeyl-6vOuWkizKZTjjgR8N6RxTMEypCr_y-ynlH6oYbfW2207Vnsh6zk4yxEZWDiQIXdlI1gCELwl-OiSb4fb0TjZiu3ZtOpziPOyAsGGrgM9B1kLRAq0cM-lrrr8cKra">
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="p-10">
+<h4 class="text-2xl font-bold uppercase mb-6 flex items-center gap-3">
+<span class="w-2 h-8 bg-primary"></span>
+                        Rollers &amp; Idlers
+                    </h4>
+<ul class="space-y-4 text-sm font-semibold text-gray-500 mb-8 uppercase tracking-widest">
+<li class="">• Impact Idler Rollers</li>
+<li class="">• Self-Aligning Idlers</li>
+<li class="">• HDPE &amp; Polymer Rollers</li>
+<li class="">• Rubber Disc Idlers</li>
+</ul>
+<a class="inline-block border-2 border-on-surface py-3 px-8 text-xs font-bold tracking-widest hover:bg-primary hover:border-primary hover:text-white transition-all uppercase" href="#contact">Get Quote</a>
+</div>
+</div>
+<!-- Full Systems -->
+<div class="bg-white group overflow-hidden">
+<div class="h-80 overflow-hidden relative">
+<img alt="Conveyor Systems" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_CdvRlZAo4Fruqa_GtH1IxqaEQZSHFZECX_2g1k31-TsAypaKkrda-S15ZBKcJGYgrW24yK-mfDUjdJMuay9RNmud46MCLKfqcqUuWpPtJjOJ35KW31KK7WwshdGaZGeq35TL1rbjCk9Wz7yG83kR51Im4j5SRcFQ9LI5-fyw1qoBUeBytcxV79JxD3f5ePs_-0LOdtBLJOZC3UNe-t_Qt3xLdaIt58YjFhXeh6jSA1qIUZBbcHtQNcvtffP7norOD3y1X3JD3G9G">
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="p-10">
+<h4 class="text-2xl font-bold uppercase mb-6 flex items-center gap-3">
+<span class="w-2 h-8 bg-primary"></span>
+                        Full Systems
+                    </h4>
+<ul class="space-y-4 text-sm font-semibold text-gray-500 mb-8 uppercase tracking-widest">
+<li class="">• Screw Conveyor Systems</li>
+<li class="">• Loading &amp; Unloading Units</li>
+<li class="">• Crusher Conveyors</li>
+<li class="">• Custom Fabrication</li>
+</ul>
+<a class="inline-block border-2 border-on-surface py-3 px-8 text-xs font-bold tracking-widest hover:bg-primary hover:border-primary hover:text-white transition-all uppercase" href="#contact">Get Quote</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Emergency Support -->
+<section class="section-pad py-24 bg-background industrial-grid text-white relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/3 h-full bg-primary/5 skew-x-12 translate-x-1/2"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl">
+<div class="flex items-center gap-4 mb-6">
+<span class="w-12 h-1 bg-primary"></span>
+<span class="text-primary font-black uppercase tracking-[0.3em]">Critical Response Unit</span>
+</div>
+<h2 class="text-4xl md:text-6xl font-display font-black uppercase mb-8 leading-tight">CONVEYOR BREAKDOWN? <br><span class="text-primary italic">WE'RE READY TO HELP.</span></h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-6 text-gray-300 font-semibold mb-10">
+<div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> Belt Splicing &amp; Repair</div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> Pulley Lagging Replacement</div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> Motor &amp; Gearbox Support</div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> System Alignment Correction</div>
+</div>
+</div>
+<div class="bg-white/5 border border-white/10 p-12 backdrop-blur-md text-center">
+<p class="text-xs uppercase tracking-widest mb-6 opacity-60">Direct Hotline for Emergencies</p>
+<div class="space-y-4 mb-10">
+<a class="block text-4xl font-black text-primary hover:text-white transition-colors mobile-hotline" href="tel:+919974548464">+91 99745 48464</a>
+<a class="block text-4xl font-black text-primary hover:text-white transition-colors mobile-hotline" href="tel:+918140563566">+91 81405 63566</a>
+</div>
+<a class="bg-primary text-white py-6 px-16 inline-block font-bold uppercase tracking-[0.3em] hover:bg-white hover:text-primary transition-all shadow-2xl" href="#contact">Deploy Help Now</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="section-pad py-section-padding bg-white" id="services">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<h2 class="text-primary font-bold uppercase tracking-[0.4em] mb-4 text-center">Professional Services</h2>
+<h3 class="text-4xl font-display font-bold text-center uppercase mb-20 text-on-surface">End-to-End Handling Support</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
+<!-- Service Card -->
+<div class="bg-white p-12 hover:bg-on-surface group transition-all duration-500">
+<span class="text-6xl font-black text-gray-100 group-hover:text-primary transition-colors mb-8 block">01</span>
+<h4 class="text-2xl font-bold uppercase mb-6 group-hover:text-white">Industrial Supply</h4>
+<p class="text-gray-500 group-hover:text-gray-400 mb-8">Inventory management and rapid logistics for critical conveyor components across the Indian subcontinent.</p>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+<div class="bg-white p-12 hover:bg-on-surface group transition-all duration-500">
+<span class="text-6xl font-black text-gray-100 group-hover:text-primary transition-colors mb-8 block">02</span>
+<h4 class="text-2xl font-bold uppercase mb-6 group-hover:text-white">Precision Installation</h4>
+<p class="text-gray-500 group-hover:text-gray-400 mb-8">Certified technical crews for flawless installation and mechanical alignment of heavy-duty systems.</p>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+<div class="bg-white p-12 hover:bg-on-surface group transition-all duration-500">
+<span class="text-6xl font-black text-gray-100 group-hover:text-primary transition-colors mb-8 block">03</span>
+<h4 class="text-2xl font-bold uppercase mb-6 group-hover:text-white">Preventive Maintenance</h4>
+<p class="text-gray-500 group-hover:text-gray-400 mb-8">Audit-based lubrication, tensioning, and wear-analysis to prevent sudden system failure.</p>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+<div class="bg-white p-12 hover:bg-on-surface group transition-all duration-500">
+<span class="text-6xl font-black text-gray-100 group-hover:text-primary transition-colors mb-8 block">04</span>
+<h4 class="text-2xl font-bold uppercase mb-6 group-hover:text-white">Major Repair Work</h4>
+<p class="text-gray-500 group-hover:text-gray-400 mb-8">Hot and cold vulcanization, belt repairs, and structural reinforcement for damaged industrial setups.</p>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+<div class="bg-white p-12 hover:bg-on-surface group transition-all duration-500">
+<span class="text-6xl font-black text-gray-100 group-hover:text-primary transition-colors mb-8 block">05</span>
+<h4 class="text-2xl font-bold uppercase mb-6 group-hover:text-white">AMC Packages</h4>
+<p class="text-gray-500 group-hover:text-gray-400 mb-8">Annual Maintenance Contracts offering priority support, regular checks, and reduced operational risk.</p>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+<div class="bg-white p-12 hover:bg-on-surface group transition-all duration-500">
+<span class="text-6xl font-black text-gray-100 group-hover:text-primary transition-colors mb-8 block">06</span>
+<h4 class="text-2xl font-bold uppercase mb-6 group-hover:text-white">Breakdown Support</h4>
+<p class="text-gray-500 group-hover:text-gray-400 mb-8">Rapid response emergency repair services with 24/7 technical availability across Gujarat hubs.</p>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Gallery Masonry -->
+<section class="section-pad py-section-padding bg-on-surface" id="gallery">
+    <div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+        <div class="text-center mb-20">
+            <h2 class="text-primary font-bold uppercase tracking-[0.4em] mb-4">Project Gallery</h2>
+            <h3 class="text-4xl md:text-5xl font-display font-bold uppercase text-white">Engineering Excellence in Action</h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[300px] mobile-gallery">
+            <!-- Big Featured Item -->
+            <div class="md:col-span-2 md:row-span-2 relative group overflow-hidden border border-white/10">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7ZxyMrUqzFPYs6nJ6cC0Yo2dy_bwrpYcE1bBnIzoSzS2efQOB_KuQyl2csvVBjhDOLchECzWbtxeVvbCRUp6eIYc2CsRseTdxELqkZOhhkU7olXEbGUDj2LN0VIVqifwV5ik7gfoqozRIo_GAZIxTv6jyDRuq2bcWJPSzqLBzkKRo7xjXGoPbe3t8UstfM8tPiamfV4NGgEwfDDAyZn3ApPLRDMFNHVpb0KcLoZCjF7uwK0cfiL5SBXpnN83kboRaMEW9OIr8WYfr" alt="Main Conveyor Installation" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-8 translate-y-4 group-hover:translate-y-0">
+                    <h4 class="text-white font-bold uppercase text-2xl mb-2">Heavy-Duty Conveyor Installation</h4>
+                    <p class="text-white/80 text-sm uppercase tracking-widest">Main Industrial Line, Mehsana</p>
+                </div>
+            </div>
+
+            <!-- Wide Item -->
+            <div class="md:col-span-2 relative group overflow-hidden border border-white/10">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWlIrSVoBvvgMl6-3D9us8gORD-KRBNdbKATVVYCZQ1tJef4SJ6Qhg22Z6HSZRw3Fyawwov9agSuuOfueg2970oNMmdTtmBXrQgSk2RKBn6JS5GRmXs2i6QOJ3FmyQcqKlEyJwifywzTkh5ZiX7tmeUsp_Gamk6wBhX9QWV_dkowp2YvyR_Y2BxOjQdcbvmJYqMg9OEQXGZgfdBBKdXJRv8zHZpgAhS4SqkYKcojfxVVItG0JYguHQFdiMVY8OSo_qSNrEySY5c6Ym" alt="Conveyor Systems Collage" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0">
+                    <h4 class="text-white font-bold uppercase text-lg mb-1">Integrated Material Handling</h4>
+                    <p class="text-white/80 text-xs uppercase tracking-widest">Custom Fabrication Suite</p>
+                </div>
+            </div>
+
+            <!-- Small Items -->
+            <div class="relative group overflow-hidden border border-white/10">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdmeud0InkCt_xz8WZkVz3ciousNasSRK5SN5a0CQKgrDqDxCBfPu1qhY6-IwifOg6rSUXMJyl9L2o6LRwItd7MxOFD3JYhBiEEa6KhzhMgFLLWGO61dggWBiy2KRM1DMx5gnuMB9JpYfjohsCY3WHJ70vjEUFZCGI8oofhteZlGDZNEDbcJVWFVHyw2SUpeNTSBJz3-q_o1p2MkNz1Gl492p2gk72qbCHXCc1odA5TWoMlqpxaeyrg6gp7qBXjlzRQEcT1Q-q9Z4K" alt="Large Belt Roll" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0">
+                    <h4 class="text-white font-bold uppercase text-lg mb-1">Belt Roll Supply</h4>
+                    <p class="text-white/80 text-xs uppercase tracking-widest">Logistics Hub Inventory</p>
+                </div>
+            </div>
+
+            <div class="relative group overflow-hidden border border-white/10">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo7kRpAraYA4eAQckKy1hw5FYnYVsfPgE0mhFTmy6YEYVuVkEFw-JLdG2uZXl-SWXjLJ1bCLbvyBKfKYfr2H0psH9-xEUQtaj_w_DL4OP3k64Q1U4k2Tcp2Hd-C6tjKVCPfq-rlYupHnlYruIlqs99EoqbNRCHZOr7oBorEijutBQe20xyop9I_3b3HiMHHl3u3DKSAdnFbJBJyX8wUfqQjQXKoyOD7syvj0RoJMdM8Ia_t03eZzT3iXueQN3-PLebB6D32ibEOpmv" alt="Rollers and Idlers" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0">
+                    <h4 class="text-white font-bold uppercase text-lg mb-1">Precision Rollers</h4>
+                    <p class="text-white/80 text-xs uppercase tracking-widest">Manufacturing Quality Control</p>
+                </div>
+            </div>
+
+            <!-- Another Wide/Tall Item -->
+            <div class="md:col-span-2 relative group overflow-hidden border border-white/10">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-wA1rqPxF10WWj79cL6Rh-NU9nDAlRtFDzDmVfU5M_uM0C3AX72jTR0nedM2ZKyuldeF1N_tk-B5LRc8sx95Dk6BH6hgBLtmJorgTt7gypw4IwABID5SC0T_JmTYfGOo0kTdyZMxrkoQrkkltHriq9VU0kfkwWY7mvYmp6puZtcSktwh4lnbo7QKjfXG5gYadtXOIG1utWM0a8wNQjRmw5AIxFbNgHCrvexz9rJWo6jBVBoGejwy2Qyg9m3RTFN4M_wvQQ06yyTU-" alt="Conveyor System" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-8 translate-y-4 group-hover:translate-y-0">
+                    <h4 class="text-white font-bold uppercase text-xl mb-2">Mining Sector Solutions</h4>
+                    <p class="text-white/80 text-sm uppercase tracking-widest">High-Capacity Load Line</p>
+                </div>
+            </div>
+
+            <div class="relative group overflow-hidden border border-white/10">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRi8JJrLea8Pbpps69njjQx7GS_eMxKFQfsv1GgYXJzxMKnux82Vm6HK383rKl6-8KnwA4M63ShG9ypsJdL0dUuYkOudhMOfw_mgHfITuGeGtis3tMrYCXnURf3ATPJ_6OWotj7l8TxPaP-oLtmM9BwpZW82hugBC6OyWyC9lg0Sixu6pMJvGsIJ7dd66uCJnFMxAV2Dmk0WG26HZskAZgPO-3Jl14ucSR62OvQlA15FyNOmKiVHjJHzyrzQjq-7l7rJzvSOW7zUnP" alt="Chevron Belt" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0">
+                    <h4 class="text-white font-bold uppercase text-lg mb-1">Chevron Belt Fab</h4>
+                    <p class="text-white/80 text-xs uppercase tracking-widest">Precision Pulley Lagging</p>
+                </div>
+            </div>
+
+            <div class="relative group overflow-hidden border border-white/10">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJqdFMV4ROkH2Sv54gZqExv3hy2IjK-1wCyFbonViLqDfAo1JrUwCCJzYc0itp4jN7Ps-PVxkWmWN870wZYQK9GKyA4jk4ksPmsZPeiEkxSKoUBUjs1r4t3DAiTrD_q7LyF5KQ4C8SoYtvTlk2MdbwE8o1F9shhS5gWwEdIp0ss2H1f9mgnLRVf-KUDeXNZPeY0Nrt-RImT4duI8V2yOReJzp3h8qQxAvaIvIDvpVvQYy2p8zO2nX2ehsVCOISHeEiRch3gA7luWmq" alt="Conveyor Belts" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-primary/90 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0">
+                    <h4 class="text-white font-bold uppercase text-lg mb-1">Standard Belt Supply</h4>
+                    <p class="text-white/80 text-xs uppercase tracking-widest">Cement Plant Infrastructure</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-20 text-center">
+            <a href="#" class="inline-block border-2 border-primary text-white hover:bg-primary py-5 px-16 font-bold uppercase tracking-[0.3em] transition-all">
+                View All Projects
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Workflow Timeline -->
+<section class="section-pad py-section-padding bg-white overflow-x-hidden">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<h2 class="text-primary font-bold uppercase tracking-[0.4em] mb-4 text-center">Operational Blueprint</h2>
+<h3 class="text-4xl font-display font-bold text-center uppercase mb-24 text-on-surface">Our Engineering Workflow</h3>
+<div class="relative">
+<div class="absolute top-1/2 left-0 w-full h-px timeline-line -translate-y-1/2 hidden lg:block"></div>
+<div class="grid grid-cols-1 lg:grid-cols-7 gap-12 relative z-10">
+<!-- Step -->
+<div class="text-center group">
+<div class="w-16 h-16 bg-on-surface text-white flex items-center justify-center font-black text-2xl mx-auto mb-8 border-4 border-white outline outline-1 outline-gray-200 group-hover:bg-primary transition-colors">01</div>
+<h5 class="font-bold uppercase text-sm mb-3">Requirement Analysis</h5>
+<p class="text-[10px] uppercase text-gray-400 tracking-widest leading-relaxed">Site audit &amp; spec mapping</p>
+</div>
+<div class="text-center group">
+<div class="w-16 h-16 bg-on-surface text-white flex items-center justify-center font-black text-2xl mx-auto mb-8 border-4 border-white outline outline-1 outline-gray-200 group-hover:bg-primary transition-colors">02</div>
+<h5 class="font-bold uppercase text-sm mb-3">Design &amp; Drafting</h5>
+<p class="text-[10px] uppercase text-gray-400 tracking-widest leading-relaxed">CAD &amp; Flow calculations</p>
+</div>
+<div class="text-center group">
+<div class="w-16 h-16 bg-on-surface text-white flex items-center justify-center font-black text-2xl mx-auto mb-8 border-4 border-white outline outline-1 outline-gray-200 group-hover:bg-primary transition-colors">03</div>
+<h5 class="font-bold uppercase text-sm mb-3">Material Selection</h5>
+<p class="text-[10px] uppercase text-gray-400 tracking-widest leading-relaxed">Graded rubber &amp; steel sourcing</p>
+</div>
+<div class="text-center group">
+<div class="w-16 h-16 bg-on-surface text-white flex items-center justify-center font-black text-2xl mx-auto mb-8 border-4 border-white outline outline-1 outline-gray-200 group-hover:bg-primary transition-colors">04</div>
+<h5 class="font-bold uppercase text-sm mb-3">Precision Mfg.</h5>
+<p class="text-[10px] uppercase text-gray-400 tracking-widest leading-relaxed">Facility-based fabrication</p>
+</div>
+<div class="text-center group">
+<div class="w-16 h-16 bg-on-surface text-white flex items-center justify-center font-black text-2xl mx-auto mb-8 border-4 border-white outline outline-1 outline-gray-200 group-hover:bg-primary transition-colors">05</div>
+<h5 class="font-bold uppercase text-sm mb-3">Quality Testing</h5>
+<p class="text-[10px] uppercase text-gray-400 tracking-widest leading-relaxed">Load &amp; stress verification</p>
+</div>
+<div class="text-center group">
+<div class="w-16 h-16 bg-on-surface text-white flex items-center justify-center font-black text-2xl mx-auto mb-8 border-4 border-white outline outline-1 outline-gray-200 group-hover:bg-primary transition-colors">06</div>
+<h5 class="font-bold uppercase text-sm mb-3">Site Deployment</h5>
+<p class="text-[10px] uppercase text-gray-400 tracking-widest leading-relaxed">Expert installation &amp; commission</p>
+</div>
+<div class="text-center group">
+<div class="w-16 h-16 bg-on-surface text-white flex items-center justify-center font-black text-2xl mx-auto mb-8 border-4 border-white outline outline-1 outline-gray-200 group-hover:bg-primary transition-colors">07</div>
+<h5 class="font-bold uppercase text-sm mb-3">Ongoing Support</h5>
+<p class="text-[10px] uppercase text-gray-400 tracking-widest leading-relaxed">Life-cycle maintenance</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Coverage (Gujarat Focus) -->
+<section class="section-pad py-section-padding bg-[#F9F9F9] border-y border-gray-200" id="industries">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="order-2 lg:order-1">
+<div class="bg-white p-12 border border-gray-200 shadow-xl relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8">
+<span class="material-symbols-outlined text-primary text-8xl opacity-10">map</span>
+</div>
+<h3 class="text-3xl font-display font-bold uppercase mb-8">Serving Gujarat's Industrial Hubs</h3>
+<div class="space-y-6">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-on-surface text-white flex items-center justify-center font-bold">MS</div>
+<div>
+<h6 class="font-bold uppercase">Mehsana Hub</h6>
+<p class="text-xs text-gray-500">Central HQ &amp; Strategic GIDC Workshop</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-on-surface text-white flex items-center justify-center font-bold">AH</div>
+<div>
+<h6 class="font-bold uppercase">Ahmedabad Cluster</h6>
+<p class="text-xs text-gray-500">Logistics &amp; Heavy Engineering Support</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-on-surface text-white flex items-center justify-center font-bold">SU</div>
+<div>
+<h6 class="font-bold uppercase">Surat &amp; South Gujarat</h6>
+<p class="text-xs text-gray-500">Textile &amp; Chemical Material Handling</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-on-surface text-white flex items-center justify-center font-bold">RA</div>
+<div>
+<h6 class="font-bold uppercase">Rajkot &amp; Saurashtra</h6>
+<p class="text-xs text-gray-500">Mining &amp; Casting Conveyor Solutions</p>
+</div>
+</div>
+</div>
+<p class="mt-12 text-sm text-gray-600 font-medium">* Full India presence for large-scale engineering projects and procurement.</p>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="text-primary font-bold uppercase tracking-[0.4em] mb-4">Strategic Location</h2>
+<h3 class="text-4xl md:text-5xl font-display font-bold uppercase text-on-surface mb-8">NATIVE EXPERTISE, <br>PAN-INDIA REACH</h3>
+<p class="text-lg text-gray-600 leading-relaxed mb-10">Our facility in Mehsana GIDC is strategically located to serve the massive industrial clusters of Gujarat. This geographical advantage allows us to offer unmatched response times for breakdown support and component delivery.</p>
+<div class="flex gap-4 mobile-tag-list">
+<span class="bg-on-surface text-white px-6 py-2 text-xs font-bold uppercase tracking-widest">Mehsana GIDC</span>
+<span class="bg-on-surface text-white px-6 py-2 text-xs font-bold uppercase tracking-widest">Gujarat</span>
+<span class="bg-on-surface text-white px-6 py-2 text-xs font-bold uppercase tracking-widest">Pan India</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Quote -->
+<section class="section-pad py-section-padding bg-on-surface text-white" id="contact">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+<div>
+<h2 class="text-primary font-bold uppercase tracking-[0.4em] mb-8">Get In Touch</h2>
+<h3 class="text-5xl font-display font-black uppercase mb-16 leading-tight">Start Your <span class="text-primary">Engineering</span> Consultation</h3>
+<div class="space-y-12">
+<div class="flex gap-8 mobile-contact-row">
+<div class="w-16 h-16 bg-white/5 border border-white/10 flex items-center justify-center group hover:bg-primary transition-colors mobile-contact-icon">
+<span class="material-symbols-outlined text-3xl group-hover:text-white">apartment</span>
+</div>
+<div>
+<h5 class="text-sm font-bold uppercase tracking-widest mb-2">Registered Office</h5>
+<p class="text-gray-400 text-lg">1 Sankalp Estate, Nugar Bypass Road,<br>Mehsana, Gujarat.</p>
+</div>
+</div>
+<div class="flex gap-8 mobile-contact-row">
+<div class="w-16 h-16 bg-white/5 border border-white/10 flex items-center justify-center group hover:bg-primary transition-colors mobile-contact-icon">
+<span class="material-symbols-outlined text-3xl group-hover:text-white">factory</span>
+</div>
+<div>
+<h5 class="text-sm font-bold uppercase tracking-widest mb-2">Work Facility</h5>
+<p class="text-gray-400 text-lg">135/1 &amp; 2, GIDC Phase-2,<br>Nagalpur Road, Mehsana.</p>
+</div>
+</div>
+<div class="flex gap-8 mobile-contact-row">
+<div class="w-16 h-16 bg-white/5 border border-white/10 flex items-center justify-center group hover:bg-primary transition-colors mobile-contact-icon">
+<span class="material-symbols-outlined text-3xl group-hover:text-white">call</span>
+</div>
+<div>
+<h5 class="text-sm font-bold uppercase tracking-widest mb-2">Direct Contact</h5>
+<p class="text-gray-400 text-lg">+91 99745 48464<br>+91 81405 63566</p>
+</div>
+</div>
+<div class="flex gap-8 mobile-contact-row">
+<div class="w-16 h-16 bg-white/5 border border-white/10 flex items-center justify-center group hover:bg-primary transition-colors mobile-contact-icon">
+<span class="material-symbols-outlined text-3xl group-hover:text-white">mail</span>
+</div>
+<div>
+<h5 class="text-sm font-bold uppercase tracking-widest mb-2">Email Inquiries</h5>
+<p class="text-gray-400 text-lg underline decoration-primary underline-offset-8">uniquesell16@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white p-12 shadow-2xl">
+<h4 class="text-on-surface text-3xl font-display font-bold uppercase mb-10 pb-6 border-b border-gray-100">Request A Quote</h4>
+<form class="space-y-8 text-on-surface" id="quote-form">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-gray-500">Contact Person</label>
+<input class="w-full bg-gray-50 border-0 border-b-2 border-gray-200 focus:border-primary focus:ring-0 p-4 font-semibold" name="contactPerson" placeholder="Your Name" required type="text">
+</div>
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-gray-500">Organization</label>
+<input class="w-full bg-gray-50 border-0 border-b-2 border-gray-200 focus:border-primary focus:ring-0 p-4 font-semibold" name="organization" placeholder="Company Name" type="text">
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-gray-500">Service Category</label>
+<select class="w-full bg-gray-50 border-0 border-b-2 border-gray-200 focus:border-primary focus:ring-0 p-4 font-semibold uppercase text-xs" name="serviceCategory">
+<option>Conveyor Belts Procurement</option>
+<option>Custom Roller Systems</option>
+<option>Breakdown &amp; Repair Services</option>
+<option>Preventive Maintenance Plan</option>
+<option>Full System Engineering</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-gray-500">Technical Specifications</label>
+<textarea class="w-full bg-gray-50 border-0 border-b-2 border-gray-200 focus:border-primary focus:ring-0 p-4 font-semibold" name="technicalSpecifications" placeholder="Briefly describe your requirements..." required rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white py-6 font-black uppercase tracking-[0.4em] hover:bg-on-surface transition-all" type="submit">Submit Technical Query</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background text-white pt-24 pb-12 border-t border-white/5">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
+<div class="col-span-1 md:col-span-1">
+<img alt="Unique Rubber Tech Logo" class="h-14 w-auto mb-8 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAECWbOnKs3q47duQJFDMTiwqNuPbaHK4wOolikKNfYyi_N0_gcHZEpKyLRekqnkVJNxw3HuLqkTc8SQQSq8R0BamIZYmfuPMblpkzs4LuHFoAcNFuPK2_OMWtyDy1ofgXz_FSlcQdS906bIn82KDvVKCpa5S9xHyXxMpIkVoCSc7CnWac0_lMHzlkmreuEtxZfx16uCqjiL7ZXXQBrt4DP6PaPPEj8MixKTvUl45b38PoQvOGuCy31n21HEkVYuARsa-Lw7NieOiHF">
+<p class="text-gray-500 text-sm leading-relaxed mb-8">Gujarat's premier high-end industrial engineering firm specializing in material handling and conveyor solutions.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#"><span class="material-symbols-outlined text-lg">share</span></a>
+<a class="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-primary transition-colors" href="#"><span class="material-symbols-outlined text-lg">info</span></a>
+</div>
+</div>
+<div>
+<h5 class="font-bold uppercase tracking-widest mb-10 text-xs">Engineering</h5>
+<ul class="space-y-4 text-gray-500 text-sm">
+<li class=""><a class="hover:text-primary" href="#">Conveyor Belts</a></li>
+<li class=""><a class="hover:text-primary" href="#">Rollers &amp; Idlers</a></li>
+<li class=""><a class="hover:text-primary" href="#">System Blueprinting</a></li>
+<li class=""><a class="hover:text-primary" href="#">Custom Fabrication</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold uppercase tracking-widest mb-10 text-xs">Company</h5>
+<ul class="space-y-4 text-gray-500 text-sm">
+<li class=""><a class="hover:text-primary" href="#">About Legacy</a></li>
+<li class=""><a class="hover:text-primary" href="#">Quality Control</a></li>
+<li class=""><a class="hover:text-primary" href="#">Case Studies</a></li>
+<li class=""><a class="hover:text-primary" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold uppercase tracking-widest mb-10 text-xs">Newsletter</h5>
+<p class="text-gray-500 text-xs mb-6">Stay updated with latest industrial engineering tech and site reports.</p>
+<div class="flex bg-white/5 border border-white/10 p-1">
+<input class="bg-transparent border-0 focus:ring-0 text-xs w-full px-4" placeholder="Email Address" type="email">
+<button class="bg-primary p-3"><span class="material-symbols-outlined text-white">arrow_forward</span></button>
+</div>
+</div>
+</div>
+<div class="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+<p class="text-[10px] uppercase font-bold text-gray-600 tracking-widest">© 2024 Unique Rubber Tech. All Rights Reserved. Engineered in Mehsana.</p>
+<div class="flex gap-8 text-[10px] uppercase font-bold text-gray-600 tracking-widest">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Engineering</a>
+<a class="hover:text-white" href="#">Sitemap</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+    // Reveal On Scroll Function
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            }
+        }
+    }
+    window.addEventListener("scroll", reveal);
+    // Initial call
+    reveal();
+
+    var mobileMenuButton = document.getElementById("mobile-menu-button");
+    var mobileMenu = document.getElementById("mobile-menu");
+    var mobileMenuIcon = document.getElementById("mobile-menu-icon");
+    var mobileMenuLinks = document.querySelectorAll(".mobile-menu-link");
+
+    function setMobileMenu(open) {
+        if (!mobileMenu || !mobileMenuButton || !mobileMenuIcon) {
+            return;
+        }
+
+        mobileMenu.classList.toggle("is-open", open);
+        document.body.classList.toggle("menu-open", open);
+        mobileMenuButton.setAttribute("aria-expanded", open ? "true" : "false");
+        mobileMenuButton.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+        mobileMenuIcon.textContent = open ? "close" : "menu";
+    }
+
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener("click", function () {
+            setMobileMenu(!mobileMenu.classList.contains("is-open"));
+        });
+
+        mobileMenuLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                setMobileMenu(false);
+            });
+        });
+
+        window.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                setMobileMenu(false);
+            }
+        });
+
+        window.addEventListener("resize", function () {
+            if (window.innerWidth >= 768) {
+                setMobileMenu(false);
+            }
+        });
+    }
+
+    var quoteForm = document.getElementById("quote-form");
+    if (quoteForm) {
+        quoteForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(quoteForm);
+            var contactPerson = formData.get("contactPerson") || "";
+            var organization = formData.get("organization") || "";
+            var serviceCategory = formData.get("serviceCategory") || "";
+            var technicalSpecifications = formData.get("technicalSpecifications") || "";
+
+            var message = [
+                "Hello Unique Rubber Tech, I would like to request a quote.",
+                "",
+                "Contact Person: " + contactPerson,
+                "Organization: " + (organization || "Not provided"),
+                "Service Category: " + serviceCategory,
+                "Technical Specifications: " + technicalSpecifications
+            ].join("\n");
+
+            window.location.href = "https://wa.me/919974548464?text=" + encodeURIComponent(message);
+        });
+    }
+</script>
+
+
+</body></html>
